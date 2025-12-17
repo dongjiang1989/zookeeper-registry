@@ -1,0 +1,9 @@
+# github.com/go-basic/uuid v1.0.0
+## explicit; go 1.14
+github.com/go-basic/uuid
+# github.com/go-zk/registry v0.1.0
+## explicit; go 1.14
+github.com/go-zk/registry
+# github.com/go-zk/zk v1.0.0
+## explicit; go 1.14
+github.com/go-zk/zk
