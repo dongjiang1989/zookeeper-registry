@@ -21,8 +21,7 @@ func main() {
 	zkRegistry, err = registry.NewZkRegistry(
 		registry.Hosts([]string{os.Getenv("ZOOKEEPER_ADDR")}),
 		registry.Prefix(os.Getenv("ROOT_PATH")),
-		registry.Timeout(5),
-		registry.Listens([]string{os.Getenv("SERVICE_NAME")}),
+		registry.Timeout(15),
 	)
 	if err != nil {
 		panic(err.Error())
